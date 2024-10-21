@@ -5,7 +5,7 @@ body, html {
 }
 
 .parallax {
-    background-image: url("/imgs/Kobe1.png");
+    background-image: url("/imgs/Ferrari-Logo-WP4.jpeg");
     /* Replace with your image path */
     height: 100vh;
     /* Full height */
@@ -31,25 +31,29 @@ body, html {
 
 .navbar-nav a {
     font-family: "ccclobberintimecrunchy", sans-serif;
+    color: #8a0000;
         font-weight: 400;
         font-style: normal;
 }
 
 .navbar-brand {
+    color: #8a0000;
     margin-left: 20px;
 }
-
+.nav-link :active{
+    background-color: #8a0000;
+}
 nav a {
     font-family: "ccclobberintimecrunchy", sans-serif;
         font-weight: 400;
         font-style: normal;
     position: relative;
-    color: #f27945;
+    color: #ffbe32;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #eae210;
+    color: #ffffff;
 }
 
 nav a::before {
@@ -60,12 +64,13 @@ nav a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #2b9cf3;
+    background-color: #8a0000;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
 
 nav a:hover::before {
+   
     transform: scaleX(1);
 }
 
