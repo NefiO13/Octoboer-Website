@@ -36,12 +36,20 @@ body, html {
         font-style: normal;
 }
 
+#navbarNav a {
+font-family: "ccclobberintimecrunchy", sans-serif;
+    color: #8a0000;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .navbar-brand {
     color: #8a0000;
     margin-left: 20px;
 }
+
 .nav-link :active{
-    background-color: #8a0000;
+    background-color: #a3610a;
 }
 nav a {
     font-family: "ccclobberintimecrunchy", sans-serif;
@@ -52,9 +60,9 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+#navbarNav a:hover {
     color: #ffffff;
-}
+}   
 
 nav a::before {
     content: "";
@@ -64,16 +72,22 @@ nav a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #8a0000;
+    background-color: #ff8a05;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
 
 nav a:hover::before {
-   
+   color: #ffffff;
     transform: scaleX(1);
 }
 
 nav div {
-    display: inline;
+    text-align: center;
+}
+
+
+.card{
+    height: fit-content;
+    width: fit-content;
 }
