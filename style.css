@@ -1,7 +1,9 @@
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: rgb(131, 0, 0);
 }
 
 .parallax {
@@ -93,6 +95,6 @@ nav div {
 } 
 
 .btn {
-    background-color: pink;
-    border-color: aliceblue;
+    background-color: rgb(167, 6, 33);
+    border-color: rgb(197, 212, 224);
 }
