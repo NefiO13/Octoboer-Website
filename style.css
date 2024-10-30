@@ -90,4 +90,9 @@ nav div {
 .card{
     height: fit-content;
     width: fit-content;
+} 
+
+.btn {
+    background-color: pink;
+    border-color: aliceblue;
 }
