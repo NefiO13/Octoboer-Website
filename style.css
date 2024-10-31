@@ -102,8 +102,8 @@ nav div {
 .info {
     text-align: center;
     font-size: 30px;
-    color: #65C7CE;
-    background-color: grey;
+    color: #000000;
+    background-color: rgb(247, 237, 46);
     border-radius: 25px;
     padding: 50px;
     margin-left: 200px;
