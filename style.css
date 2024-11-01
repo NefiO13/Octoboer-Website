@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -34,12 +34,12 @@ body, html {
 .navbar-nav a {
     font-family: "ccclobberintimecrunchy", sans-serif;
     color: #8a0000;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbarNav a {
-font-family: "ccclobberintimecrunchy", sans-serif;
+    font-family: "ccclobberintimecrunchy", sans-serif;
     color: #8a0000;
     font-weight: 400;
     font-style: normal;
@@ -50,13 +50,14 @@ font-family: "ccclobberintimecrunchy", sans-serif;
     margin-left: 20px;
 }
 
-.nav-link :active{
+.nav-link :active {
     background-color: #a3610a;
 }
+
 nav a {
     font-family: "ccclobberintimecrunchy", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     position: relative;
     color: #ffbe32;
     text-decoration: none;
@@ -64,7 +65,7 @@ nav a {
 
 #navbarNav a:hover {
     color: #ffffff;
-}   
+}
 
 nav a::before {
     content: "";
@@ -80,7 +81,7 @@ nav a::before {
 }
 
 nav a:hover::before {
-   color: #ffffff;
+    color: #ffffff;
     transform: scaleX(1);
 }
 
@@ -89,10 +90,10 @@ nav div {
 }
 
 
-.card{
+.card {
     height: fit-content;
     width: fit-content;
-} 
+}
 
 .btn {
     background-color: rgb(167, 6, 33);
@@ -113,13 +114,13 @@ nav div {
 }
 
 .history {
-    border: 5px 5px #65C7CE;
+    border: 5px 5px #ffffff;
     border-radius: 25px;
 
 }
 
 p {
-    color: #65C7CE;
+    color: #f60606;
     font-size: 27px;
 }
 
@@ -130,5 +131,19 @@ p {
 
 .his {
     border-radius: 25px;
-    border: 7px solid grey;
+    border: 7px solid #e60a0a;
+}
+
+h3 {
+    font-family: "silver-northern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eaad06;
+}
+
+h5 {
+    font-family: "silver-northern", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eaad06;
 }
