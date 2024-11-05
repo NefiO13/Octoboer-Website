@@ -102,8 +102,8 @@ nav div {
 .info {
     text-align: center;
     font-size: 30px;
-    color: #65C7CE;
-    background-color: grey;
+color: red;
+    background-color: rgb(114, 4, 4);
     border-radius: 25px;
     padding: 50px;
     margin-left: 200px;
@@ -113,13 +113,13 @@ nav div {
 }
 
 .history {
-    border: 5px 5px #65C7CE;
+    border: 5px 5px #af0b0b;
     border-radius: 25px;
 
 }
 
 p {
-    color: #65C7CE;
+    color: #971010;
     font-size: 27px;
 }
 
@@ -130,5 +130,5 @@ p {
 
 .his {
     border-radius: 25px;
-    border: 7px solid grey;
+    border: 7px solid rgb(71, 0, 0);
 }
